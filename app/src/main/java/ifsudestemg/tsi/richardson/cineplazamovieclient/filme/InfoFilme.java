@@ -23,7 +23,7 @@ import ifsudestemg.tsi.richardson.cineplazamovieclient.R;
 public class InfoFilme extends YouTubeBaseActivity {
     private ImageView imageView;
     private TextView nomeFilmeTextView;
-    private TextView urlVideoTextView;
+    //private TextView urlVideoTextView;
     private TextView generoFilmeTextView;
     private TextView duracaoFilmeTextView;
     private YouTubePlayerView youTubePlayerView;

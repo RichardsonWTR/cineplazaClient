@@ -55,7 +55,8 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Large Text"
-            android:id="@+id/textView_duracaoFilme" />
+            android:id="@+id/textView_duracaoFilme"
+            android:padding="16dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -70,20 +71,11 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="fill_parent"
-        android:gravity="center"
-        android:padding="16dp">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Large Text"
-            android:id="@+id/textView_urlVideo"
-            android:visibility="gone" />
+        android:gravity="center">
 
         <com.google.android.youtube.player.YouTubePlayerView
             android:layout_width="fill_parent"
-            android:layout_height="213dp"
+            android:layout_height="157dp"
             android:id="@+id/customView_youtubeVideo"
             android:layout_gravity="center_horizontal"
             android:onClick="iniciarVideo" />
